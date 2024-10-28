@@ -1,0 +1,118 @@
+html
+
+body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin:0px;
+}
+
+/* Header/Footer */
+.header,
+.footer {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(53, 88, 140);
+    height:100px;
+    padding:0 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin:0px;
+}
+
+.header ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    font-size: 2vw;
+    margin:0px;
+    flex-wrap: wrap;
+}
+
+/* Introduction */
+.introduction {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    min-height: 300px;
+    flex-wrap:wrap;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+.intro-text h2 {
+    margin: 0px;
+}
+
+.intro-img img {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+/* Information  */
+.information {
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    min-height: 300px;
+    gap:30px
+}
+
+.information h2 {
+    color: black;
+    text-align:center;
+    margin: 0px 0px 16px 0px;
+}
+
+.information-boxes {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.information-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-boxes img,
+.information-boxes p {
+    width: 150px;
+    height: auto;
+}
+
+/* Quote */
+.quote {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-content {
+    max-width: 840px
+}
+.quote-source {
+    max-width: 900px
+}
